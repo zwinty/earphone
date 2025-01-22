@@ -22,8 +22,6 @@ const BannerSliderShop = () =>{
       }}
       pagination={{ clickable: true }}
       autoplay={{ delay: 3000, disableOnInteraction: false }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
       breakpoints={{
         375: {
           slidesPerView:1,
