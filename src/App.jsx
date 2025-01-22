@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 import TopPage from './pages/TopPage'
 import KaitoriPage from './pages/KaitoriPage'
 import TopPageAfter from './pages/TopPageAfter'
-import MembershipPage from './pages/membershipPage'
+import MembershipPage from './pages/MembershipPage'
 
 
 
