@@ -1,0 +1,50 @@
+.swiper img{
+    width: 100%;
+}
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);  
+  border-radius: 50%;  
+  color: white;  
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  background: rgba(0, 0, 0, 0.8);  
+}
+
+.custom-prev {
+  left: 10px;  
+}
+
+.custom-next {
+  right: 10px;  
+}
+.banner-swiper{
+    padding: 30px 0;
+    background-color: #eee;
+}
+.swiper-pagination-bullet {
+    background: rgb(94, 94, 94); 
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: rgb(0, 0, 0); 
+  }
+  @media only screen and (max-width: 424px) {
+    .swiper{
+      padding: 10px 0;
+    }
+
+  }

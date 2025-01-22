@@ -1,0 +1,220 @@
+/* .review-card-container{
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 300px;
+    height: auto;
+}
+.product-img{
+    width:100%;
+    height: 70%;
+}
+
+.review-buttom>img{
+    width: 70px;
+    border-radius: 100%;
+    margin: 0;
+}
+.review-buttom{
+    padding: 10px 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.brand-name-review{
+    padding: 10px 10px 0 10px;
+    color: var(--gray-color);
+}
+.product-name-review{
+    padding: 0 10px;
+    font-weight: 800;
+}
+
+.review-title{
+    padding: 10px 10px 0px 10px;
+    font-weight: 700;
+    font-size: 14px 
+}
+.review-text{
+    padding: 10px;
+    font-size: 12px;
+
+}
+.hashtag{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    padding: 0 0px 10px 0px;
+}
+.hashtag p{
+    background-color: #ccc;
+    padding: 6px;
+    border-radius: 10px;
+
+}
+.staff-name{
+    font-size: 16px;
+    font-weight: 800px;
+}
+.shop-name{
+    font-size: 12px;
+}
+
+@media only screen and (max-width:1024px) {
+    .review-card-container{
+        padding: 10px;
+        border: 1px solid #ddd;
+        width: 300px;
+        height: auto;
+    }
+
+} */
+
+
+/* Sougo Review Container */
+.sougoreview-container {
+    margin: 0 auto;
+    width: 90%;
+    padding: 40px 0;
+}
+
+/* Product Review PC Container */
+.product-review-pc {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-bottom: 1px solid #eee;
+}
+.product-review-pc > * {
+    flex: 0 0 calc(30% - 30px); 
+}
+.review-card-container {
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 280px;
+    height: auto;
+}
+.product-img {
+    width: 100%;
+    height: 70%;
+}
+.review-buttom > img {
+    width: 70px;
+    border-radius: 100%;
+    margin: 0;
+}
+.review-buttom {
+    padding: 10px 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.brand-name-review {
+    padding: 10px 10px 0 10px;
+    color: var(--gray-color);
+}
+
+.product-name-review {
+    padding: 0 10px;
+    font-weight: 800;
+}
+.review-title {
+    padding: 10px 10px 0px 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.review-text {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.hashtag {
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0 0px 10px 0px;
+}
+.hashtag p {
+    background-color: #ccc;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.staff-name {
+    font-size: 16px;
+    font-weight: 800px;
+}
+
+.shop-name {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .product-review-pc > * {
+        flex: 0 0 calc(45% - 30px); 
+    }
+    .review-card-container {
+        width: 45%; 
+    }
+}
+@media only screen and (max-width: 768px) {
+    .product-review-pc > * {
+        flex: 0 0 100%; 
+    }
+    .review-card-container {
+        width: 100%; 
+    }
+    .product-img {
+        height: 60%; 
+    }
+    .review-title {
+        font-size: 12px;
+    }
+
+    .review-text {
+        font-size: 10px;
+    }
+
+    .staff-name {
+        font-size: 14px;
+    }
+    .shop-name {
+        font-size: 10px;
+    }
+
+    .hashtag p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .product-review-pc > * {
+        flex: 0 0 100%; 
+    }
+    .review-card-container {
+        width: 100%; 
+    }
+    .product-img {
+        height: 50%; 
+    }
+    .review-title {
+        font-size: 10px;
+    }
+    .review-text {
+        font-size: 8px;
+    }
+    .staff-name {
+        font-size: 12px;
+    }
+    .shop-name {
+        font-size: 8px;
+    }
+    .hashtag p {
+        font-size: 8px;
+    }
+}

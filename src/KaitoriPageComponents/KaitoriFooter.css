@@ -1,0 +1,141 @@
+/* .kaitori-footer-container{
+    margin: 0 auto;
+    width: 100%;
+}
+.moshikomi-container{
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: "./bg.jpg"
+}
+.moshikomi-container>img{
+    width: 30%;
+}
+.footer-container{
+    padding: 0;
+   text-align: center;
+}
+.footer-top{
+    padding: 40px 0;
+    background-color: #FFE100;
+}
+.footer-top>img{
+    width: 15%;
+    padding-bottom: 20px;
+} */
+
+/* Kaitori Footer Container */
+.kaitori-footer-container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Moshikomi Container */
+.moshikomi-container {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensure both horizontal and vertical centering */
+    flex-direction: column; /* Stack elements vertically for smaller screens */
+    width: 100%;
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.moshikomi-container > img {
+    width: 30%;
+    max-width: 300px; /* Limit maximum width of the image */
+    height: auto;
+    margin-bottom: 20px; /* Add space below the image */
+}
+.moshikomi-container > img:hover {
+    opacity: 0.8; /* Example effect: change opacity when hovering */
+    transform: scale(1.05); /* Slight zoom effect */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Footer Container */
+.footer-container {
+    padding: 0;
+    text-align: center;
+}
+
+.footer-top {
+    padding: 40px 0;
+    background-color: #FFE100;
+}
+
+.footer-top > img {
+    width: 15%;
+    padding-bottom: 20px;
+}
+
+/* Footer Bottom */
+.footer-buttom {
+    padding: 10px 0;
+}
+
+.footer-buttom p {
+    font-size: 12px;
+}
+
+/* Button Style */
+.moshikomi-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    color: #000;
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+/* Button Hover */
+.moshikomi-btn:hover {
+    background-color: #f08300;
+    border-color: #f08300;
+    color: white;
+}
+
+/* Responsive Adjustments for Smaller Screens */
+@media only screen and (max-width: 768px) {
+    .moshikomi-container {
+        padding: 40px 0;
+        flex-direction: column; /* Ensure stacking on smaller screens */
+    }
+
+    .moshikomi-container > img {
+        width: 50%; /* Adjust image size for smaller screens */
+    }
+
+    .moshikomi-btn {
+        margin: 0 auto; /* Center button on smaller screens */
+    }
+    .footer-top > img {
+        width: 30%;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .moshikomi-container {
+        padding: 20px 0;
+    }
+
+    .moshikomi-container > img {
+        width: 70%; /* Larger image for very small screens */
+    }
+
+    .moshikomi-btn {
+        width: 80%; /* Optionally increase button width on small screens */
+    }
+    .footer-top > img {
+        width: 40%;
+        padding-bottom: 20px;
+    }
+}

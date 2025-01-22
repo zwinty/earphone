@@ -1,0 +1,30 @@
+.review-slider{
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    background-color: #ffff;
+
+}
+.staff-review{
+  margin: 0 auto;
+  padding: 60px 0;
+  border-bottom: 1px solid #eee;
+  max-width: 1410px;
+}
+.swiper-slide .slide {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: auto; 
+  }
+
+.card {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+  }
+
+
+
+    

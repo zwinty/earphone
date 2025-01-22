@@ -1,0 +1,20 @@
+.sougoreview-container{
+    margin: 0 auto;
+    width: 90%;
+    padding: 40px 0;
+    max-width: 1340px;
+
+}
+
+.product-review-pc {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px; 
+    border-bottom: 1px solid #eee;
+}
+
+.product-review-pc > * {
+    flex: 0 0 calc(30% - 30px); 
+}
+

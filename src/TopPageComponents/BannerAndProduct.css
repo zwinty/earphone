@@ -1,0 +1,210 @@
+
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.category-buttons button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+}
+.category-buttons button.active {
+    background-color: #F08300;
+    color: white;
+    border-color: #F08300;
+  }
+  .category-buttons button:hover {
+    background-color: #F08300;
+    border-color: #F08300;
+}
+.membership{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 8px;
+
+}
+.membership>img{
+    width: 100%;
+    
+}
+.enroll-now-btn{
+    width: 80%;
+    background-color: #F08300;
+    border: 1px solid #F08300;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    color: white;
+    margin-bottom: 4px;
+}
+.enroll-now-btn:hover{
+    width: 200px;
+    background-color: #ff8f05;
+    border: 1px solid #ff8f05;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    color: #000000;
+    margin-bottom: 4px;
+
+}
+.seemore-kaitori-btn{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 60%;
+}
+.see-more-btn{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  width: 100%;
+}
+.seemore-item-btn{
+  width: 250px;
+  background-color: #ff8f05;
+  border: 1px solid #ff8f05;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  color: #ffffff;
+  margin-bottom: 4px;
+
+}
+.seemore-item-btn:hover{
+  width: 250px;
+  background-color: #0EA213;
+  border: 1px solid #0EA213;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  color: #ffffff;
+  margin-bottom: 4px;
+
+}
+
+
+.seemore-item-btn-green{
+  width: 250px;
+  background-color: #0EA213;
+  border: 1px solid #0EA213;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  color: #ffffff;
+  margin-bottom: 4px;
+
+}
+.seemore-item-btn-green:hover{
+  width: 250px;
+  background-color: #ff8f05;
+  border: 1px solid #ff8f05;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  color: #ffffff;
+  margin-bottom: 4px;
+
+}
+.membership-see-more{
+    width: 80%;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    color: #000000;
+    margin-bottom: 4px;
+}
+.membership-see-more:hover{
+    width: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    color: #ff8f05;
+    margin-bottom: 4px;
+    
+}
+.banner-img{
+    width: 100%;
+}
+  .product-cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+  }
+  
+  .banner-product-container{
+    padding: 40px 0;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    gap: 100px;
+    max-width: 1340px;
+  }
+  .banner-container{
+    text-align: center;
+    width: 20%;
+  }
+
+  .product-container{
+    width: 70%;
+  }
+  .recently-check{
+    padding-top: 60px;
+  }
+  .recently-product{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  
+  @media only screen and (max-width: 965px) {
+    .banner-container{
+        display: none;
+    }
+    .product-container{
+        width: 100%;
+    }
+    .product-cards{
+      gap: 10px;
+    }
+    
+
+}

@@ -1,0 +1,51 @@
+.hou-nin-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   text-align: center; 
+   align-items: center;
+   margin-bottom: 60px;
+}
+.hou-nin-container>img{
+    width: 50%;
+}
+
+.hounin-background{
+    margin-top: 40px;
+    background-color: #E4E4E4;
+
+}
+
+  
+  .hounin-buttons {
+    padding: 20px 0;
+    background-color: #0EA213;
+    border-color: #000000;
+    color: white;
+    width: 50%;
+  
+  }
+  
+  .hounin-buttons:hover {
+    background-color: #f08300;
+    border-color: #f08300;
+  }
+  
+@media only screen and (min-width:800px) {
+    .hou-nin-container{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .hounin-img{
+        padding: 20px;
+        margin: 0 auto;
+        width: 50%
+    }
+
+    .hounin-background{
+        margin-top: 80px;
+      
+    
+    }
+}

@@ -1,0 +1,36 @@
+.cus-exp-container {
+    background-color: #FFE100;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.voice-title {
+    display: flex;
+    justify-content: center;
+}
+
+.voice-title > img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.voice-blog-container {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .voice-blog-container {
+        flex-direction: column; /* Stack the BlogCards vertically */
+        align-items: center; /* Center align them */
+        gap: 1rem; /* Add some spacing between them */
+    }
+
+    .voice-blog-container > div { 
+        width: 100%; /* Make each BlogCard take the full width */
+   
+    }
+}

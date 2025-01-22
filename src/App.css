@@ -1,0 +1,37 @@
+#root {
+ margin: 0 auto;
+ 
+}
+*{
+  box-sizing: border-box;
+  font-family: "Noto San JP";
+  padding: 0;
+  margin: 0;
+  --background-color:#F8F8F8;
+  --primary-color:#ff8f05;
+  --sub-color : #FDE8CF;
+  --base-color:#FCF7D7;
+  --accent-color:#FCC809;
+  --yellow-color:#FCC809;
+  --gray-color:#858585;
+  --title-font-pc:35px;
+  --text-font-pc :14px;
+  --secondarytext-font-pc:12px;
+}
+h2 {
+  color: #ff8f05;
+  position: relative;  
+  text-align: center; 
+  margin-bottom: 30px;
+}
+
+h2::after {
+  content: '';  
+  position: absolute;
+  left: 50%; 
+  bottom: -8px; 
+  transform: translateX(-50%); 
+  width: 40px;
+  height: 4px; 
+  background-color:#ff8f05;
+}

@@ -1,0 +1,148 @@
+/* .point-container{
+    margin: 0 auto;
+    width: 80%;
+    padding: 80px 0;
+    border-top: 1px solid #eee;
+}
+.point-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.point-title>img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.point-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; 
+    padding-bottom: 80px;
+   
+}
+.point-content>img{
+    width: 20%;
+
+}
+.hikaku-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+.hikaku-title>img{
+    width: 40%;
+
+}
+.hikaku-table{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+.hikaku-table>img{
+    width: 80%;
+}
+@media (max-width: 768px) {
+    .point-content > img {
+        width: 45%; 
+    }
+} */
+
+/* Point Container */
+.point-container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 80px 0;
+    border-top: 1px solid #eee;
+}
+
+/* Point Title */
+.point-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.point-title > img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Point Content */
+.point-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 80px;
+}
+
+.point-content > img {
+    width: 20%;
+}
+
+/* Hikaku Title */
+.hikaku-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+
+.hikaku-title > img {
+    width: 40%;
+}
+
+/* Hikaku Table */
+.hikaku-table {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.hikaku-table > img {
+    width: 80%;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .point-container {
+        width: 95%; /* Slightly more space on small screens */
+        padding: 60px 0;
+    }
+
+    /* Point Content Images */
+    .point-content > img {
+        width: 45%; /* Two items per row on small screens */
+    }
+
+    /* Point Title Image */
+    .point-title > img {
+        width: 80%; /* Make the title image larger on small screens */
+    }
+
+    /* Hikaku Title Image */
+    .hikaku-title > img {
+        width: 70%; /* Reduce width for better alignment */
+    }
+
+    /* Hikaku Table Image */
+    .hikaku-table > img {
+        width: 100%; /* Table image should take full width */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust further for very small screens */
+    .point-title > img {
+        width: 100%; /* Ensure title image fills the screen on very small screens */
+    }
+
+    .point-content > img {
+        width: 100%; /* Stack images vertically on very small screens */
+    }
+}

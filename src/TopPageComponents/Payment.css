@@ -1,0 +1,58 @@
+.payment-container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0;
+    max-width: 1150px;
+
+}
+.payment-card img{
+    display: flex;
+    margin: 0 auto;
+    width:200px;
+}
+
+.payment-card{
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--base-color);
+    width:80%;
+    height: auto;
+
+}
+.payment{
+   padding-top: 40px;
+}
+
+.payment-title{
+    font-weight: 800;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 10px;
+    font-size: 20px;
+}
+.payment-text{
+    padding: 10px;
+}
+
+@media only screen and (min-width:1024px) {
+    .payment{
+        padding-top: 40px;
+     }
+     
+    .payment-container{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .paymenet-card{
+        width: 25%;
+        height: auto;
+        padding: 20px;
+    }
+}

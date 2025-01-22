@@ -1,0 +1,182 @@
+/* .kaitori-firstview-container{
+    margin: 0 auto;
+}
+.kaitori-firstview-container>img{
+    width: 100%;
+}
+.mitsumori-form-container{
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 40px 0;
+    margin: 0 auto;
+}
+.mitsu-form{
+    width: 80%;
+    display: flex;
+    background-color:#ffff;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+.form-title{
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+h3{
+    padding-bottom: 20px;
+}
+input{
+    padding-left: 10px;
+    height: 30px;
+}
+.mitsu-search{
+    display: flex;
+    gap: 20px;
+}
+.label{
+    min-width: 85px;
+}
+.mitsu-btn{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+}
+@media only screen and (max-width: 1100px) {
+    .mitsu-form{
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+} */
+
+.kaitori-firstview-container {
+    margin: 0 auto;
+}
+
+.kaitori-firstview-container > img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.mitsumori-form-container {
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+.mitsu-form {
+    width: 67%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 20px; /* Add spacing between form items */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.form-title {
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+h3 {
+    padding-bottom: 20px;
+}
+
+input {
+    padding-left: 10px;
+    height: 30px;
+    width: 100%; /* Full width for better usability on small screens */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.mitsu-search {
+    display: flex;
+    flex-direction: column; /* Stack label and input */
+    gap: 8px; /* Add spacing between label and input */
+    width: 100%; /* Full width for smaller screens */
+}
+
+.label {
+    min-width: 85px;
+}
+
+.mitsu-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    width: 100%; /* Full width for smaller screens */
+    text-align: center; /* Center the button text */
+}
+
+@media only screen and (max-width: 1100px) {
+    .mitsu-form {
+        width: 90%; /* Slightly smaller width */
+        flex-direction: column; /* Stack form fields */
+        align-items: stretch; /* Stretch items to fit container */
+    }
+
+    .mitsu-search {
+        flex-direction: column; /* Stack label and input */
+        width: 100%; /* Full width for all inputs */
+    }
+
+    .mitsu-btn {
+        width: 100%; /* Full width button */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mitsumori-form-container {
+        padding: 20px 0; /* Reduce padding for smaller screens */
+    }
+
+    .mitsu-form {
+        padding: 20px; /* Reduce form padding */
+        gap: 16px; /* Reduce gap between form items */
+    }
+
+    input {
+        height: 35px; /* Slightly larger input for better tap targets */
+    }
+
+    .mitsu-btn {
+        padding: 10px 15px; /* Adjust button padding */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .mitsu-form {
+        width: 100%; /* Take full width */
+    }
+
+    h3 {
+        font-size: 18px; /* Adjust title size for small screens */
+    }
+
+    input {
+        font-size: 14px; /* Adjust input font size */
+    }
+
+    .mitsu-btn {
+        font-size: 12px; /* Adjust button text size */
+    }
+}
