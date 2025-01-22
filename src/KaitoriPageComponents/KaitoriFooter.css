@@ -39,7 +39,6 @@
     align-items: center; /* Ensure both horizontal and vertical centering */
     flex-direction: column; /* Stack elements vertically for smaller screens */
     width: 100%;
-    background-image: url("./bg.jpg");
     background-size: cover;
     background-position: center;
 }
