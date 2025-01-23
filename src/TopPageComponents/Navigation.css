@@ -1,188 +1,23 @@
-/* .navigation-contaier{
-    margin:0 auto;
-    padding: 0
-   
-}
-p{
-    padding: 0;
-    margin:0;
-
-}
-.navigation-pc{
-margin: 0 auto;
-width: 90%;
-display: flex;
-flex-direction: column;
-padding-bottom: 16px;
-}
-.logo-pc{
-width: 50%;
-padding-left: 12px;
-
-}
-.nav-top{
-display: flex;
-justify-content: space-between;
-padding: 8px 0;
-
-}
-.nav-btn{
-display: flex;
-gap: 10px;
-justify-content: space-around;
-}
-.nav-btn-icon{
-padding: 0 16px;
-text-align: center;
-
-}
-.nav-btn-icon>p{
-font-size: 14px;
-}
-.nav-bottom{
-display: flex;
-justify-content: space-between;
-border-bottom: 2px solid #c0c0c0;
-padding-bottom: 8px;
-}
-.nav-menu{
-display: flex;
-justify-content: space-between;
-padding: 0;
-margin: 0;
-}
-.nav-sns{ 
-display: flex;
-justify-content: space-between;
-padding: 0;
-margin: 0;   
-}
-li{
-    padding: 10px;
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: #000000;
-}
-
-
-.nav-menu li:hover{
-    background-color: #ededed;
-    border-radius: 4px;
-}
-.nav-sns li:hover{
-    background-color: #ededed;
-    border-radius: 4px;
-}
-
-
-
-.navigation-ph{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 8px;
-}
-.navigation-ph> img{
-    width: 30%
-}
-.nav-icon-ph{
-    font-size: 35px;
-}
-
-.nav-menu li {
-    position: relative;
-  }
-  
-  .dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #ffffff;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    min-width: 260px;
-    z-index: 1000;
-  }
-  
-  .nav-menu li:hover .dropdown {
-    display: block;
-  }
-  
-  .dropdown li {
-    padding: 10px;
-    border-bottom: 1px solid #f0f0f0;
-  }
-  
-  .dropdown li:last-child {
-    border-bottom: none;
-  }
-  
-  .dropdown a {
-    color: #000;
-    font-size: 14px;
-  }
-  
-  .dropdown a:hover {
-    background-color: #f1f1f1;
-    border-radius: 4px;
-  }
-  
-
-  .nav-menu li:hover > a {
-    color:#F08300
-  }
-  
-  .nav-menu li:hover > a + .FaCaretDown {
-    transform: rotate(180deg);
-    transition: transform 0.3s ease;
-  }
-  
-
-@media only screen and (max-width: 1180px) {
-    .nav-sns{
-        display: none;
-    }
-   
-}
-@media only screen and (max-width: 965px) {
-    .navigation-pc{
-        display: none;
-    }
-
-}
-@media only screen and (min-width: 965px) {
-    .navigation-ph{
-        display: none;
-        
-    }
-   
-} */
-
-
-/* General Styles */
 .navigation-container {
     margin: 0 auto;
     padding: 0;
+
 }
 
-/* Reset for p and li elements */
+
 p, li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-/* Links */
+
 a {
     text-decoration: none;
     color: #000000;
 }
 
-/* Desktop Navigation */
+
 .navigation-pc {
     margin: 0 auto;
     width: 90%;
@@ -237,7 +72,7 @@ a {
     cursor: pointer;
 }
 
-/* Dropdown Styles */
+
 .dropdown {
     display: none;
     position: absolute;
@@ -282,7 +117,7 @@ a {
     transition: transform 0.3s ease;
 }
 
-/* Social Media Links */
+
 .nav-sns {
     display: flex;
     justify-content: space-between;
@@ -299,13 +134,13 @@ a {
     border-radius: 4px;
 }
 
-/* Hover Effects */
+
 .nav-menu li:hover {
     background-color: #ededed;
     border-radius: 4px;
 }
 
-/* Mobile Navigation */
+
 .navigation-ph {
     display: flex;
     flex-direction: row;
@@ -381,7 +216,7 @@ a {
   display: block;
 }
 
-/* Responsive Styles */
+
 @media only screen and (max-width: 1180px) {
     .nav-sns {
         display: none;

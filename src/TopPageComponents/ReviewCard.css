@@ -1,84 +1,9 @@
-/* .review-card-container{
-    padding: 10px;
-    border: 1px solid #ddd;
-    width: 300px;
-    height: auto;
-}
-.product-img{
-    width:100%;
-    height: 70%;
-}
-
-.review-buttom>img{
-    width: 70px;
-    border-radius: 100%;
-    margin: 0;
-}
-.review-buttom{
-    padding: 10px 10px 0 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10px;
-}
-.brand-name-review{
-    padding: 10px 10px 0 10px;
-    color: var(--gray-color);
-}
-.product-name-review{
-    padding: 0 10px;
-    font-weight: 800;
-}
-
-.review-title{
-    padding: 10px 10px 0px 10px;
-    font-weight: 700;
-    font-size: 14px 
-}
-.review-text{
-    padding: 10px;
-    font-size: 12px;
-
-}
-.hashtag{
-    display: flex;
-    font-size: 12px;
-    justify-content: space-between;
-    padding: 0 0px 10px 0px;
-}
-.hashtag p{
-    background-color: #ccc;
-    padding: 6px;
-    border-radius: 10px;
-
-}
-.staff-name{
-    font-size: 16px;
-    font-weight: 800px;
-}
-.shop-name{
-    font-size: 12px;
-}
-
-@media only screen and (max-width:1024px) {
-    .review-card-container{
-        padding: 10px;
-        border: 1px solid #ddd;
-        width: 300px;
-        height: auto;
-    }
-
-} */
-
-
-/* Sougo Review Container */
 .sougoreview-container {
     margin: 0 auto;
     width: 90%;
     padding: 40px 0;
 }
 
-/* Product Review PC Container */
 .product-review-pc {
     padding: 40px 0;
     display: flex;

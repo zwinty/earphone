@@ -48,7 +48,9 @@ const MemberShipFirstView = () =>{
             </div>
             <div className="mem-banner-container">
 
-            </div> <Swiper className='banner-swiper'
+            </div> 
+        </div>
+        <Swiper className='banner-swiper'
       modules={[Navigation, Pagination, Scrollbar, Autoplay]}
       navigation={{
         nextEl: ".custom-next",
@@ -79,13 +81,13 @@ const MemberShipFirstView = () =>{
     >
       <SwiperSlide><img src="/member-banner.webp" alt="banner" /></SwiperSlide>
       <SwiperSlide><img src="/1.svg" alt="banner" /></SwiperSlide>
-      <SwiperSlide><img src="/mem-banner2.svg" alt="banner" /></SwiperSlide>
+      <SwiperSlide><img src="/mem-banner.svg" alt="banner" /></SwiperSlide>
       <SwiperSlide><img src="/member-banner.webp" alt="banner" /></SwiperSlide>
       <SwiperSlide><img src="/1.svg" alt="banner" /></SwiperSlide>
-      <SwiperSlide><img src="/mem-banner2.svg" alt="banner" /></SwiperSlide>
+      <SwiperSlide><img src="/mem-banner.svg" alt="banner" /></SwiperSlide>
       <SwiperSlide><img src="/member-banner.webp" alt="banner" /></SwiperSlide>
       <SwiperSlide><img src="/1.svg" alt="banner" /></SwiperSlide>
-      <SwiperSlide><img src="/mem-banner2.svg" alt="banner" /></SwiperSlide>
+      <SwiperSlide><img src="/mem-banner.svg" alt="banner" /></SwiperSlide>
       
      
   
@@ -99,7 +101,6 @@ const MemberShipFirstView = () =>{
      
     </Swiper>
     
-        </div>
         <div className="map-container">
                 <img src="./map.svg" alt="map-pic" />
             </div>

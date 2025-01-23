@@ -1,115 +1,15 @@
-/* 
-.method-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .method-buttons button {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    outline: none;
-  }
-  
-  .method-buttons button.active {
-    background-color: #f08300;
-    color: white;
-    border-color: #f08300;
-  }
-  
-  .method-buttons button:hover {
-    background-color: #f08300;
-    border-color: #f08300;
-  }
-  
-
-  .method-content {
-    text-align: center;
-    width: 100%;
-  }
-  .method-container{
-    padding: 80px 0;
-    width: 80%;
-    margin: 0 auto;
-    border-bottom: 1px solid #eee;
-  }
-  .method-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .method-item img {
-    width: 80%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .method-btn-group {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    padding: 10px 0;
-  }
-  
-
-  .method-btn {
-    background-color: #dddddd;
-    border: 1px solid  #000000;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    outline: none;
-    color:  #000000;
-
-  }
- 
-
-  .method-btn:hover{
-    background-color: #f08300;
-    border-color: #000000;
-    color: #ffff;
-  }
-  .method-active-btn{
-    background-color: #0EA213;
-    border-color: #000000;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    outline: none;
-
-  }
-  .method-active-btn:hover{
-    background-color: #f08300;
-    border-color: #000000;
-    color: #ffff;
-  } */
-
-
-  /* Category Buttons (Tabs) */
 .method-buttons {
   display: flex;
   justify-content: center;
   gap: 15px;
-  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+  flex-wrap: wrap; 
   margin-bottom: 20px;
 }
 
 .method-buttons button {
   background-color: #f0f0f0;
   border: 1px solid #ccc;
-  padding: 10px 15px; /* Reduced padding for smaller screens */
+  padding: 10px 15px; 
   border-radius: 5px;
   font-size: 14px;
   cursor: pointer;
@@ -128,15 +28,14 @@
   border-color: #f08300;
 }
 
-/* Category Content */
 .method-content {
   text-align: center;
   width: 100%;
 }
 
 .method-container {
-  padding: 40px 20px; /* Adjust padding for smaller screens */
-  width: 70%; /* Reduced width for better fit on small screens */
+  padding: 40px 20px;
+  width: 70%; 
   margin: 0 auto;
   border-bottom: 1px solid #eee;
 }
@@ -145,28 +44,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px; /* Reduced gap for smaller screens */
+  gap: 15px; 
 }
 
 .method-item img {
-  width: 100%; /* Full width for smaller screens */
+  width: 100%; 
   height: auto;
   border-radius: 10px;
 }
 
 .method-btn-group {
   display: flex;
-  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+  flex-wrap: wrap; 
   justify-content: center;
-  gap: 10px; /* Adjust gap between buttons */
+  gap: 10px; 
   padding: 10px 0;
 }
 
 .method-btn {
   background-color: #dddddd;
   border: 1px solid #000000;
-  padding: 8px 15px; /* Reduced padding */
-  font-size: 13px; /* Slightly smaller font for smaller screens */
+  padding: 8px 15px; 
+  font-size: 13px; 
   cursor: pointer;
   transition: all 0.3s ease;
   outline: none;
@@ -183,8 +82,8 @@
   background-color: #0EA213;
   border-color: #000000;
   color: white;
-  padding: 8px 15px; /* Reduced padding */
-  font-size: 13px; /* Adjust font size */
+  padding: 8px 15px; 
+  font-size: 13px; 
   cursor: pointer;
   transition: all 0.3s ease;
   outline: none;
@@ -196,54 +95,53 @@
   color: #ffff;
 }
 
-/* Responsive Design */
 @media only screen and (max-width: 768px) {
   .method-container {
-      width: 100%; /* Full width for small screens */
-      padding: 30px 15px; /* Adjust padding */
+      width: 100%;
+      padding: 30px 15px; 
   }
 
   .method-buttons button {
-      padding: 8px 10px; /* Further reduce button padding */
-      font-size: 12px; /* Smaller font for small screens */
+      padding: 8px 10px; 
+      font-size: 12px; 
   }
 
   .method-item img {
-      width: 90%; /* Slightly smaller image */
+      width: 90%; 
   }
 
   .method-btn-group {
-      gap: 8px; /* Adjust gap for compact layout */
+      gap: 8px; 
   }
 
   .method-btn,
   .method-active-btn {
-      font-size: 12px; /* Adjust font size */
-      padding: 6px 10px; /* Smaller button padding */
+      font-size: 12px; 
+      padding: 6px 10px; 
   }
 }
 
 @media only screen and (max-width: 480px) {
   .method-container {
-      padding: 20px 10px; /* Further reduce padding */
+      padding: 20px 10px; 
   }
 
   .method-buttons {
-      gap: 10px; /* Reduce gap between buttons */
+      gap: 10px; 
   }
 
   .method-btn-group {
-      flex-direction: column; /* Stack buttons vertically */
-      gap: 5px; /* Adjust gap for vertical layout */
+      flex-direction: column; 
+      gap: 5px; 
   }
 
   .method-btn,
   .method-active-btn {
-      width: 100%; /* Full width buttons for smaller screens */
-      font-size: 11px; /* Slightly smaller font size */
+      width: 100%; 
+      font-size: 11px; 
   }
 
   .method-item img {
-      width: 100%; /* Full width for small screens */
+      width: 100%; 
   }
 }

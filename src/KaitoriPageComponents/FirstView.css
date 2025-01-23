@@ -1,61 +1,4 @@
-/* .kaitori-firstview-container{
-    margin: 0 auto;
-}
-.kaitori-firstview-container>img{
-    width: 100%;
-}
-.mitsumori-form-container{
-    width: 100%;
-    background-color: var(--primary-color);
-    padding: 40px 0;
-    margin: 0 auto;
-}
-.mitsu-form{
-    width: 80%;
-    display: flex;
-    background-color:#ffff;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 40px;
-    border-radius: 10px;
-}
-.form-title{
-    margin: 0 auto;
-    text-align: center;
-    color: #ffffff;
-}
-h3{
-    padding-bottom: 20px;
-}
-input{
-    padding-left: 10px;
-    height: 30px;
-}
-.mitsu-search{
-    display: flex;
-    gap: 20px;
-}
-.label{
-    min-width: 85px;
-}
-.mitsu-btn{
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 5px 20px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    outline: none;
-}
-@media only screen and (max-width: 1100px) {
-    .mitsu-form{
-        margin: 0 auto;
-        align-items: center;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-} */
+
 
 .kaitori-firstview-container {
     margin: 0 auto;
@@ -63,7 +6,7 @@ input{
 
 .kaitori-firstview-container > img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
 }
 
 .mitsumori-form-container {
@@ -81,9 +24,9 @@ input{
     margin: 0 auto;
     padding: 40px;
     border-radius: 10px;
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
-    gap: 20px; /* Add spacing between form items */
-    box-sizing: border-box; /* Include padding in width calculation */
+    flex-wrap: wrap; 
+    gap: 20px; 
+    box-sizing: border-box; 
 }
 
 .form-title {
@@ -99,15 +42,15 @@ h3 {
 input {
     padding-left: 10px;
     height: 30px;
-    width: 100%; /* Full width for better usability on small screens */
-    box-sizing: border-box; /* Include padding in width */
+    width: 100%; 
+    box-sizing: border-box; 
 }
 
 .mitsu-search {
     display: flex;
-    flex-direction: column; /* Stack label and input */
-    gap: 8px; /* Add spacing between label and input */
-    width: 100%; /* Full width for smaller screens */
+    flex-direction: column; 
+    gap: 8px; 
+    width: 100%; 
 }
 
 .label {
@@ -123,60 +66,60 @@ input {
     cursor: pointer;
     transition: all 0.3s ease;
     outline: none;
-    width: 100%; /* Full width for smaller screens */
-    text-align: center; /* Center the button text */
+    width: 100%; 
+    text-align: center; 
 }
 
 @media only screen and (max-width: 1100px) {
     .mitsu-form {
-        width: 90%; /* Slightly smaller width */
-        flex-direction: column; /* Stack form fields */
-        align-items: stretch; /* Stretch items to fit container */
+        width: 90%; 
+        flex-direction: column; 
+        align-items: stretch; 
     }
 
     .mitsu-search {
-        flex-direction: column; /* Stack label and input */
-        width: 100%; /* Full width for all inputs */
+        flex-direction: column; 
+        width: 100%; 
     }
 
     .mitsu-btn {
-        width: 100%; /* Full width button */
+        width: 100%; 
     }
 }
 
 @media only screen and (max-width: 768px) {
     .mitsumori-form-container {
-        padding: 20px 0; /* Reduce padding for smaller screens */
+        padding: 20px 0; 
     }
 
     .mitsu-form {
-        padding: 20px; /* Reduce form padding */
-        gap: 16px; /* Reduce gap between form items */
+        padding: 20px; 
+        gap: 16px; 
     }
 
     input {
-        height: 35px; /* Slightly larger input for better tap targets */
+        height: 35px; 
     }
 
     .mitsu-btn {
-        padding: 10px 15px; /* Adjust button padding */
+        padding: 10px 15px; 
     }
 }
 
 @media only screen and (max-width: 480px) {
     .mitsu-form {
-        width: 100%; /* Take full width */
+        width: 100%; 
     }
 
     h3 {
-        font-size: 18px; /* Adjust title size for small screens */
+        font-size: 18px; 
     }
 
     input {
-        font-size: 14px; /* Adjust input font size */
+        font-size: 14px; 
     }
 
     .mitsu-btn {
-        font-size: 12px; /* Adjust button text size */
+        font-size: 12px; 
     }
 }
