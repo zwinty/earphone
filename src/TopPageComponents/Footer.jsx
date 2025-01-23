@@ -1,5 +1,7 @@
 import { Fragment } from "react"
 import './Footer.css'
+import { MdKeyboardDoubleArrowUp } from "react-icons/md";
+
 const Footer = () =>{
     return(
         <Fragment>

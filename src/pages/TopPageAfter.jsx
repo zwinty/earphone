@@ -18,6 +18,7 @@ const TopPageAfter = ()=>{
     return(
       <>
             <Navigation/>
+            <div className="margin-div"></div>
             <BannerSlider/>
             <BannerAndProductAfter/>
             <BannerSliderShop/>

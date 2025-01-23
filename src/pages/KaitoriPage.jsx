@@ -17,6 +17,7 @@ const KaitoriPage = ()=>{
     return(
       <>
             <Navigation/>
+            <div className="margin-div"></div>
             <FirstView/>
             <Method/>
             <KaitoriBannerSlider/>

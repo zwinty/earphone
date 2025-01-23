@@ -6,6 +6,7 @@ const MembershipPage = () =>{
     return(
         <>
         <Navigation/>
+        <div className="margin-div"></div>
         <MemberShipFirstView/>
         <Footer/>
         </>

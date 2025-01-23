@@ -12,11 +12,13 @@ import Footer from "../TopPageComponents/Footer"
 import Blog from "../TopPageComponents/Blog"
 import Recommend from "../TopPageComponents/Recommend"
 import SougoLink from "../TopPageComponents/SougoLink"
+import '../TopPageComponents/Css.css'
 
 const TopPage = ()=>{
     return(
       <>
             <Navigation/>
+            <div className="margin-div"></div>
             <BannerSlider/>
             <BannerAndProduct/>
             <BannerSliderShop/>

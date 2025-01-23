@@ -1,9 +1,17 @@
 .navigation-container {
-    margin: 0 auto;
-    padding: 0;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
+.navigation-ph, .navigation-pc {
+    margin: 0 auto;
+    width: 100%;
+}
 
 p, li {
     margin: 0;
@@ -23,7 +31,7 @@ a {
     width: 90%;
     display: flex;
     flex-direction: column;
-    padding-bottom: 16px;
+  
 }
 
 .logo-pc {
