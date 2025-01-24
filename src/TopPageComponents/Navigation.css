@@ -18,7 +18,10 @@ p, li {
     padding: 0;
     list-style: none;
 }
-
+.search-box{
+    margin-top: 10px;
+    width: 400px;
+}
 
 a {
     text-decoration: none;

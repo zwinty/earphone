@@ -117,6 +117,10 @@ const Navigation = () => {
                         <img className="logo-pc" src="/logo.svg" alt="Logo" />
                     </Link>
                     </div>
+                    <div className="search-container">
+                        <input className="search-box" type="text" placeholder="キーワードで探す"/>
+                    </div>
+                  
                     <div className="nav-btn">
                         <div className="nav-btn-icon">
                             <IoPersonOutline className="nav-icon" />
