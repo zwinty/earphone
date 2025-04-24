@@ -3,7 +3,7 @@
       "id":1,
       "img":"/product7.png",
       "brand_name": "Nexula",
-      "category": "新品",
+      "category": "新品を買う",
       "product_name": "イヤホン X1",
       "price": 12000
     },
@@ -11,7 +11,7 @@
       "id":2,
       "img":"/product6.png",
       "brand_name": "Zentrix",
-      "category": "中古",
+      "category": "中古を買う",
       "product_name": "ヘッドホン H2",
       "price": 15000
     },
@@ -19,7 +19,7 @@
       "id":3,
       "img":"/product5.png",
       "brand_name": "Audivox",
-      "category": "新品",
+      "category": "新品を買う",
       "product_name": "ポータブルスピーカー S1",
       "price": 9000
     },
@@ -27,7 +27,7 @@
       "id":4,
       "img":"/product4.png",
       "brand_name": "Sonivus",
-      "category": "買取",
+      "category": "買取をする",
       "product_name": "イヤホン Y1",
       "price": 6000
     },
@@ -35,7 +35,7 @@
       "id":5,
       "img":"/product3.png",
       "brand_name": "Echozia",
-      "category": "中古",
+      "category": "中古を買う",
       "product_name": "ヘッドセット HS2",
       "price": 7000
     },
@@ -43,7 +43,7 @@
       "id":6,
       "img":"/product2.png",
       "brand_name": "Tonevia",
-      "category": "買取",
+      "category": "買取をする",
       "product_name": "サウンドバー SB1",
       "price": 5000
     },
@@ -51,7 +51,7 @@
       "id":7, 
       "img":"/product1.png",
       "brand_name": "Harmonia",
-      "category": "新品",
+      "category": "新品を買う",
       "product_name": "ヘッドホンプロ HP1",
       "price": 8000
     },
@@ -59,7 +59,7 @@
       "id":8, 
       "img":"/product9.png",
       "brand_name": "Vibraxis",
-      "category": "買取",
+      "category": "買取をする",
       "product_name": "ワイヤレスイヤホン W1",
       "price": 10000
     },
@@ -67,7 +67,7 @@
       "id":9, 
       "img":"/product8.png",   
       "brand_name": "Luminex",
-      "category": "中古",
+      "category": "中古を買う",
       "product_name": "イヤホンプロ EP1",
       "price": 15000
     },
@@ -75,7 +75,7 @@
       "id":10,
       "img":"/product7.png",   
       "brand_name": "Cypheron",
-      "category": "新品",
+      "category": "新品を買う",
       "product_name": "ゲーミングヘッドホン GH1",
       "price": 18000
     },
@@ -83,7 +83,7 @@
       "id":11, 
       "img":"/product6.png",  
       "brand_name": "Auracore",
-      "category": "買取",
+      "category": "買取をする",
       "product_name": "ステレオヘッドホン SH1",
       "price": 7000
     },
@@ -91,7 +91,7 @@
       "id":12,
       "img":"/product5.png",   
       "brand_name": "Phonetic",
-      "category": "新品",
+      "category": "新品を買う",
       "product_name": "ポータブルスピーカー SP1",
       "price": 9500
     },
@@ -99,7 +99,7 @@
       "id":13,  
       "img":"/product4.png", 
       "brand_name": "Phonetic",
-      "category": "中古",
+      "category": "中古を買う",
       "product_name": "ポータブルスピーカー SP1",
       "price": 9500
     },
@@ -107,7 +107,7 @@
       "id":14,   
       "img":"/product3.png",
       "brand_name": "Phonetic",
-      "category": "買取",
+      "category": "買取をする",
       "product_name": "ポータブルスピーカー SP1",
       "price": 9500
     },
@@ -115,7 +115,7 @@
       "id":15, 
       "img":"/product2.png",  
       "brand_name": "Phonetic",
-      "category": "中古",
+      "category": "中古を買う",
       "product_name": "ポータブルスピーカー SP1",
       "price": 9500
     },
@@ -123,7 +123,7 @@
       "id":16,   
       "img":"/product1.png",
       "brand_name": "Phonetic",
-      "category": "買取",
+      "category": "買取をする",
       "product_name": "ポータブルスピーカー SP1",
       "price": 9500
     },
@@ -131,7 +131,7 @@
       "id":17, 
       "img":"/product9.png",  
       "brand_name": "Phonetic",
-      "category": "中古",
+      "category": "中古を買う",
       "product_name": "ポータブルスピーカー SP1",
       "price": 9500
     },
@@ -139,7 +139,7 @@
       "id":18,
       "img":"/product8.png",   
       "brand_name": "Phonetic",
-      "category": "新品",
+      "category": "新品を買う",
       "product_name": "ポータブルスピーカー SP1",
       "price": 9500
     },
@@ -147,7 +147,7 @@
       "id":19,
       "img":"/product7.png",
       "brand_name": "Zentrix",
-      "category": "中古",
+      "category": "中古を買う",
       "product_name": "ヘッドホン H2",
       "price": 15000
     },
@@ -155,7 +155,7 @@
       "id":20,
       "img":"/product6.png",
       "brand_name": "Zentrix",
-      "category": "中古",
+      "category": "中古を買う",
       "product_name": "ヘッドホン H2",
       "price": 15000
     }
@@ -164,7 +164,7 @@
       "id":22,
       "img":"/product5.png",   
       "brand_name": "Phonetic",
-      "category": "新品",
+      "category": "新品を買う",
       "product_name": "ポータブルスピーカー SP1",
       "price": 9500
     },
@@ -172,7 +172,7 @@
       "id":23,
       "img":"/product4.png",   
       "brand_name": "Phonetic",
-      "category": "新品",
+      "category": "新品を買う",
       "product_name": "ポータブルスピーカー SP1",
       "price": 9500
     },
@@ -180,7 +180,7 @@
       "id":24,   
       "img":"/product3.png",
       "brand_name": "Phonetic",
-      "category": "買取",
+      "category": "買取をする",
       "product_name": "ポータブルスピーカー SP1",
       "price": 9500
     },
@@ -188,7 +188,7 @@
       "id":25,   
       "img":"/product2.png",
       "brand_name": "Phonetic",
-      "category": "買取",
+      "category": "買取をする",
       "product_name": "ポータブルスピーカー SP1",
       "price": 9500
     }

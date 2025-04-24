@@ -91,7 +91,7 @@ const Navigation = () => {
                                 "仙台駅前店",
                             ],
                         },
-                        // Add more dropdown configurations here.
+                       
                     ].map((item, index) => (
                         <li key={index} className="dropdown-container">
                             <div onClick={() => toggleDropdown(index)}>
@@ -117,9 +117,7 @@ const Navigation = () => {
                         <img className="logo-pc" src="/logo.svg" alt="Logo" />
                     </Link>
                     </div>
-                    <div className="search-container">
-                        <input className="search-box" type="text" placeholder="キーワードで探す"/>
-                    </div>
+                    
                   
                     <div className="nav-btn">
                         <div className="nav-btn-icon">
@@ -219,6 +217,9 @@ const Navigation = () => {
                             </ul>
                         </li>
                     </ul>
+                    <div className="search-container">
+                        <input className="search-box" type="text" placeholder="キーワードで探す"/>
+                    </div>
                     <ul className="nav-sns">
                         <li><a href="#">BLOG</a></li>
                         <li><a href="#">YouTube</a></li>
